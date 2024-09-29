@@ -14,8 +14,8 @@ Please refer to the [arXiv paper](https://arxiv.org/abs/2403.14611) for more det
   https://github.com/user-attachments/assets/b984c57c-a450-4071-996c-dc3df1445e79
 
 ## Todo
-TRF code release
-TRF++ (Domain specific lora patch for downstream tasks) release
+- [x] TRF code release
+- [ ] TRF++ (Domain specific lora patch for downstream tasks) release
 
 ## Getting Started
 Clone the repo:
@@ -59,7 +59,7 @@ If you find our work useful to your research, please consider citing:
 ```
 
 ## Notes
-Training code will also be released in the future. 
+More domain-specific lora patch models will be released soon
 
 ## License
 This code and model are available for non-commercial scientific research purposes as defined in the [LICENSE](https://github.com/HavenFeng/TRUST/blob/main/LICENSE) file.
