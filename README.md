@@ -9,9 +9,8 @@ We proposed a new sampling strategy called Time-Reversal Fusion (TRF) [8], which
   2) Synthesizing camera motion using two images captured from different viewpoints of a static scene.
   3) Achieving video looping by using the same image for both bounds.
 
-Please refer to the [arXiv paper](https://arxiv.org/abs/2403.14611) for more details.
+Please refer to the [arXiv paper](https://arxiv.org/abs/2403.14611) for more technical details and [Project Page](time-reversal.github.io) for more video results.
 
-  https://github.com/user-attachments/assets/b984c57c-a450-4071-996c-dc3df1445e79
 
 ## Todo
 - [x] TRF code release
@@ -57,6 +56,9 @@ If you find our work useful to your research, please consider citing:
   year = {2024}
 }
 ```
+
+The video form of of our teaser image:
+  https://github.com/user-attachments/assets/b984c57c-a450-4071-996c-dc3df1445e79
 
 ## Notes
 More domain-specific lora patch models will be released soon
