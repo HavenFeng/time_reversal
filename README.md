@@ -57,10 +57,12 @@ If you find our work useful to your research, please consider citing:
 }
 ```
 
-The video form of of our teaser image:
-  https://github.com/user-attachments/assets/b984c57c-a450-4071-996c-dc3df1445e79
 
 ## Notes
+The video form of of our teaser image:
+
+  https://github.com/user-attachments/assets/b984c57c-a450-4071-996c-dc3df1445e79
+
 More domain-specific lora patch models will be released soon
 
 ## License
