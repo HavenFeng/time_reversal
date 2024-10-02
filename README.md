@@ -36,7 +36,7 @@ Clone the repo:
 ### Usage
 1. **Run inference with samples in paper**  
     ```bash
-    python svd_sequential_re.py 
+    python svd_sequential_re.py multiview
     ```   
 2. **TRF++ (add "lora" patches to enhance domain-specific task)**
    ```
@@ -73,8 +73,8 @@ By downloading and using the code and model you agree to the terms in the [LICEN
 
 ## Acknowledgements
 We would like to thank recent baseline works that allow us to easily perform quantitative and qualitative comparisons :)  
-[FILM](https://github.com/soubhiksanyal/RingNet), 
-[Wide-Baseline](https://github.com/microsoft/Deep3DFaceReconstruction/blob/master/renderer/rasterize_triangles.py), 
-[Text2Cinemagraph](https://github.com/microsoft/Deep3DFaceReconstruction/blob/master/renderer/rasterize_triangles.py), 
+[FILM](https://github.com/google-research/frame-interpolation), 
+[Wide-Baseline](https://github.com/yilundu/cross_attention_renderer), 
+[Text2Cinemagraph](https://github.com/text2cinemagraph/text2cinemagraph/tree/master), 
 
 This work was partly supported by the German Federal Ministry of Education and Research (BMBF): Tuebingen AI Center, FKZ: 01IS18039B
