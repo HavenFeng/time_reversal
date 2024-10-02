@@ -39,7 +39,9 @@ Clone the repo:
     python svd_sequential_re.py 
     ```   
 2. **TRF++ (add "lora" patches to enhance domain-specific task)**
-
+   ```
+    coming soon
+   ```
 
 ## Evaluation
 We evaluate our methods with the [Bounded Generation Dataset](https://time-reversal.github.io) compared to the domain-specific state-of-the-art methods.  
