@@ -19,7 +19,7 @@ Please refer to the [arXiv paper](https://arxiv.org/abs/2403.14611) for more tec
 ## Getting Started
 Clone the repo:
   ```bash
-  git clone https://github.com/HavenFeng/Time_Reversal/
+  git clone https://github.com/HavenFeng/time_reversal/
   cd Time_Reveral
   ```
 
