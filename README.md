@@ -4,7 +4,7 @@
 </p>
 
 This is the official Pytorch implementation of Time Reversal Fusion (accepted at ECCV2024). 
-We proposed a new sampling strategy called Time-Reversal Fusion (TRF) [8], which enables the image-to-video model to generate sequences toward a given end frame without any tuning or back-propagated optimization. We define this new task as "Bounded Generation" and it generalizes three scenarios in computer vision: 
+We proposed a new sampling strategy called Time-Reversal Fusion (TRF), which enables the image-to-video model to generate sequences toward a given end frame without any tuning or back-propagated optimization. We define this new task as "Bounded Generation" and it generalizes three scenarios in computer vision: 
   1) Generating subject motion with the two bound images capturing a moving subject. 
   2) Synthesizing camera motion using two images captured from different viewpoints of a static scene.
   3) Achieving video looping by using the same image for both bounds.
