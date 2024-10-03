@@ -11,22 +11,23 @@ We proposed a new sampling strategy called Time-Reversal Fusion (TRF) [8], which
 
 Please refer to the [arXiv paper](https://arxiv.org/abs/2403.14611) for more technical details and [Project Page](time-reversal.github.io) for more video results.
 
-
 ## Todo
 - [x] TRF code release
+- [ ] Bounded Generation Dataset release
 - [ ] TRF++ (Domain specific lora patch for downstream tasks) release
+- [ ] Gradio demo
 
 ## Getting Started
 Clone the repo:
   ```bash
   git clone https://github.com/HavenFeng/time_reversal/
-  cd Time_Reveral
+  cd time_reveral
   ```
 
 ### Requirements
 * Python 3.10 (numpy, skimage, scipy, opencv)
 * Diffusers
-* PyTorch >= 1.8 (Diffusers compatible)  
+* PyTorch >= 2.0.1 (Diffusers compatible)  
   You can run 
   ```bash
   pip install -r requirements.txt
@@ -37,8 +38,10 @@ Clone the repo:
 1. **Run inference with samples in paper**  
     ```bash
     python svd_sequential_re.py multiview
-    ```   
-2. **TRF++ (add "lora" patches to enhance domain-specific task)**
+    ```
+    Check different task results with "multiview", "video frames", "gym_motion" and "image2loop", the generated results can be found in the ./output folder.
+2. **TRF++ (add LoRA "patches" to enhance domain-specific task)**  
+    TRF was designed to probe SVD's bounded generation capabilities without fine-tuning, but we've observed SVD's biases in subject and camera motion, as well as sensitivity to conditioning factors like FPS and motion intensity. These required careful parameter tuning for different inputs. To improve generation quality and robustness for other downstream tasks, we fine-tuned LoRA "patch" on various domain-specific datasets, better supporting long-range linear motion and extreme 3D views generation.
    ```
     coming soon
    ```
@@ -58,7 +61,6 @@ If you find our work useful to your research, please consider citing:
   year = {2024}
 }
 ```
-
 
 ## Notes
 The video form of of our teaser image:
