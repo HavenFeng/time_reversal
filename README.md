@@ -70,8 +70,7 @@ The video form of of our teaser image:
 More domain-specific lora patch models will be released soon
 
 ## License
-This code and model are available for non-commercial scientific research purposes as defined in the [LICENSE](https://github.com/HavenFeng/TRUST/blob/main/LICENSE) file.
-By downloading and using the code and model you agree to the terms in the [LICENSE](https://github.com/HavenFeng/TRUST/blob/main/LICENSE). 
+This code and model are available for non-commercial scientific research purposes.
 
 ## Acknowledgements
 We would like to thank recent baseline works that allow us to easily perform quantitative and qualitative comparisons :)  
