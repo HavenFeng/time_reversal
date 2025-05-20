@@ -13,8 +13,7 @@ Please refer to the [arXiv paper](https://arxiv.org/abs/2403.14611) for more tec
 
 ## Todo
 - [x] TRF code release
-- [ ] Bounded Generation Dataset release
-- [ ] TRF++ (Domain specific lora patch for downstream tasks) release
+- [x] Bounded Generation Dataset release
 - [ ] Gradio demo
 
 ## Getting Started
@@ -47,7 +46,7 @@ Clone the repo:
    ```
 
 ## Evaluation
-We evaluate our methods with the [Bounded Generation Dataset](https://time-reversal.github.io) compared to the domain-specific state-of-the-art methods.  
+We evaluate our methods with the [Bounded Generation Dataset](https://drive.google.com/drive/folders/1qH4yx5954Bm6h1E4olEqgV0pSJicdkNu?usp=sharing) compared to the domain-specific state-of-the-art methods.  
 For more details of the evaluation, please check our [arXiv paper](https://arxiv.org/abs/2403.14611). 
 
 
